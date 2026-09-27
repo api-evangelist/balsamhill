@@ -1,23 +1,51 @@
 aid: balsamhill
+
 name: Balsamhill
-description: 'Balsamhill is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Balsamhill is a retailer specializing in high‑quality artificial Christmas trees, ornaments, and seasonal home décor. Founded in 2006, the company offers a wide range of realistic trees and accessories, serving both consumers and businesses through its online store and studio locations.'
+
 url: https://raw.githubusercontent.com/api-evangelist/balsamhill/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-27 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-27'
+
 modified: '2026-09-27'
+
 tags:
-- Company
-apis: []
+- Retail
+- E‑commerce
+- Home Décor
+- Artificial Trees
+- Seasonal Products
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/balsamhill-hosts.yml
+- type: Vendors
+  url: vendors/balsamhill-vendors.yml
+- type: DomainSecurity
+  url: security/balsamhill-domain-security.yml
 - type: Website
   url: https://equityzen.com/company/balsamhill
+
+apis: []
+x-enrichment:
+  date: '2026-09-27'
+  status: enriched
+  artifacts_added: 4
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
