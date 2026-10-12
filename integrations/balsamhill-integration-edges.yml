@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/balsamhill/integrations
+- https://n8n.io/integrations/balsamhill/
+- https://composio.dev/toolkits/balsamhill
+- https://monid.ai/tools/balsamhill
+checked:
+- https://composio.dev/toolkits/balsamhill
+- https://monid.ai/tools/balsamhill
+- https://n8n.io/integrations/balsamhill/
+- https://zapier.com/apps/balsamhill/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
